@@ -60,3 +60,6 @@ This section documents the simulation workflow and the observations from the GTK
 <img width="1638" height="340" alt="Screenshot from 2025-10-04 22-06-33" src="https://github.com/user-attachments/assets/bdaf2103-a742-4c50-973c-c4c914b860ea" />
 
 
+
+### References
+https://github.com/manili/VSDBabySoC?tab=readme-ov-file#introduction-to-the-vsdbabysoc
