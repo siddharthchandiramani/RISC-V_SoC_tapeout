@@ -1,9 +1,7 @@
 # RISC-V_SoC_tapeout  
 
 # Fundamentals of System-on-Chip (SoC) Design
-
-## Overview
-This repository contains my Week 2 task submission for the VSD (Very Small Design) course. The focus of this task is to understand the fundamentals of System-on-Chip (SoC) design and explore the BabySoC model as a simplified learning platform.
+This document summarizes the foundational concepts of System-on-Chip (SoC) design, outlining the key components, the overall design flow, and the significance of simplified learning models like BabySoC. This understanding forms the theoretical basis for the hardware development undertaken in this repository.
 
 ## 1. What is a System-on-Chip (SoC)?
 A **System-on-Chip (SoC)** is an integrated circuit (IC) that integrates nearly all components of a computer or other electronic system onto a single chip. It is essentially a complete electronic system packaged into a single silicon die.
