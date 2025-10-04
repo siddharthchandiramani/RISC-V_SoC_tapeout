@@ -20,36 +20,25 @@ SoCs are widely used in modern applications—from smartphones and smartwatches 
 - **Peripherals:** Interfaces for communication with external devices (e.g., UART, GPIO, timers).
 - **Interconnect/Bus:** Connects all components and enables data transfer between them.
 
-## 2. BabySoC: A Simplified SoC Model
-**BabySoC** is a minimal SoC design used for learning and experimentation. Its simplified structure allows beginners to:
+## VSDBabySoC: A Compact RISC-V SoC
 
-- Understand the key components of a SoC without the complexity of a full-scale design.
-- Learn how data flows between CPU, memory, and peripherals.
-- Practice functional modeling and simulation before moving to more advanced RTL or physical design stages.
+**VSDBabySoC** is a small but powerful **RISC-V-based System-on-Chip** designed for learning and experimentation.
 
-## 3. Importance of Functional Modeling
-Before designing the actual hardware:
+### Key Features
+- **RVMYTH Microprocessor:** The core processor that executes instructions and manages peripherals.  
+- **8x PLL (Phase-Locked Loop):** Generates a stable clock for synchronized operation.  
+- **10-bit DAC (Digital-to-Analog Converter):** Allows the SoC to interact with analog devices, such as televisions or mobile phones, producing audio or video output.
 
-- **Functional modeling** helps validate system behavior at a high level.
-- It ensures that the SoC architecture meets the design requirements.
-- Helps identify design flaws early, saving time and effort in later RTL and physical design stages.
+### Why VSDBabySoC is Useful
+- Demonstrates how **digital and analog components** work together on a single chip.  
+- Fully **open-source and well-documented**, making it ideal for **educational purposes**.  
+- Fabricated using **Sky130 technology**, providing a practical, hands-on platform for understanding SoC design and integration.
 
-## 4. Waveform Simulation
-The BabySoC design has been simulated, and the following key signals were observed:
+### Learning Objectives
+- Understand the **architecture and operation** of a small SoC.  
+- Explore the **integration of multiple IP cores** in a compact design.  
+- Learn how **digital signals interact with analog components** through the DAC.  
 
-- `clk` – System clock
-- `reset` – Reset signal
-- `RV_TO_DAC[9:0]` – Data output to DAC
-- `OUT` – System output  
+VSDBabySoC provides a practical example of a **fully functional, small-scale SoC** that helps students and researchers gain real-world experience in SoC design, testing, and experimentation.
 
-Below is a snapshot of the simulation waveform:
-
-![Waveform](Week2_Waveform.png)
-
-## Reference
-- [Fundamentals of SoC Design Notes](https://github.com/hemanthkumardm/SFAL-VSD-SoCJourney/tree/main/11.%20Fundamentals%20of%20SoC%20Design)
-
----
-
-**Deliverable:** A concise understanding of SoC fundamentals and the role of BabySoC in learning SoC concepts.
 
