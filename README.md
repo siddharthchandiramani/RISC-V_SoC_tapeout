@@ -56,7 +56,7 @@ This section documents the steps followed to simulate the VSDBabySoC design and 
     make pre_synth_sim
     gtkwave output/pre_synth_sim/pre_synth_sim.vcd
 
-### Pre_synth_sim
+### Pre_synth_sim waveform
 
 <img width="1638" height="340" alt="Screenshot from 2025-10-04 22-06-33" src="https://github.com/user-attachments/assets/406ae92d-d802-4f5e-9213-cb5d569f4e74" />
 
