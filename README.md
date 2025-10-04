@@ -41,18 +41,22 @@ SoCs are widely used in modern applications—from smartphones and smartwatches 
 
 VSDBabySoC provides a practical example of a **fully functional, small-scale SoC** that helps students and researchers gain real-world experience in SoC design, testing, and experimentation.
 
-# VSDBabySoC Simulation and Waveform Analysis
+# Part 2: VSDBabySoC Simulation and Waveform Analysis
 
-This section documents the steps followed to simulate the VSDBabySoC design and analyze the generated waveforms.
+This section documents the simulation workflow and the observations from the GTKWave waveforms for the VSDBabySoC project.
 
 ## Simulation Steps
+
+1. **Create a working directory for Week 2**
    ```bash
    mkdir -p ~/week2_VSD
    cd ~/week2_VSD
    git clone https://github.com/manili/VSDBabySoC.git
-    cd VSDBabySoC
-    make pre_synth_sim
-    gtkwave output/pre_synth_sim/pre_synth_sim.vcd
+   cd VSDBabySoC
+   make pre_synth_sim
+   gtkwave output/pre_synth_sim/pre_synth_sim.vcd
 
+### pre_synth_sim Waveform
+<img width="1638" height="340" alt="Screenshot from 2025-10-04 22-06-33" src="https://github.com/user-attachments/assets/bdaf2103-a742-4c50-973c-c4c914b860ea" />
 
 
