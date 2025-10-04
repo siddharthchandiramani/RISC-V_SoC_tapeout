@@ -46,8 +46,6 @@ VSDBabySoC provides a practical example of a **fully functional, small-scale SoC
 This section documents the steps followed to simulate the VSDBabySoC design and analyze the generated waveforms.
 
 ## Simulation Steps
-
-1. **Create a directory**
    ```bash
    mkdir -p ~/week2_VSD
    cd ~/week2_VSD
