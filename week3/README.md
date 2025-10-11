@@ -110,7 +110,7 @@ Setup violation: data arrives too late → wrong value latched
 
 Hold violation: data changes too early → unstable value latched
 
-## Setup Time Constraint
+# Setup Time Constraint
 
 Ensures that data is present and stable at the sequential element sufficiently in advance of the clock transition.
 
