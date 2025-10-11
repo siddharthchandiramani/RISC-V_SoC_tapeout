@@ -85,9 +85,11 @@ cd output/post_synth_sim/
 
 gtkwave post_synth_sim.vcd
 ```
-## Waveform 
+## Post Synthesis Waveform 
 <img width="1632" height="183" alt="image" src="https://github.com/user-attachments/assets/6bab4eaa-caa7-4f11-ab02-54ddd199efa8" />
 
+## Pre Synthesis Waveform
+<img width="1638" height="340" alt="Screenshot from 2025-10-04 22-06-33" src="https://github.com/user-attachments/assets/bdaf2103-a742-4c50-973c-c4c914b860ea" />
 
 ## Static Timing Analysis
 STA is a method used in digital circuit design to verify that a design will meet its timing requirements without having to simulate all possible input combinations.
