@@ -109,3 +109,21 @@ If timing is violated:
 Setup violation: data arrives too late → wrong value latched
 
 Hold violation: data changes too early → unstable value latched
+
+## Setup Time Constraint
+
+Ensures that data is present and stable at the sequential element sufficiently in advance of the clock transition.
+
+Condition: Tclk ≥ Tpd + Tsetup
+
+Slack: Slack_setup = Tclk - (Tpd + Tsetup)
+
+## Hold Time Constraint
+
+Ensures that data remains stable for a minimum duration following the clock transition.
+
+Condition: Tpd ≥ Thold
+
+Slack: Slack_hold = Tpd - Thold
+
+A positive slack confirms temporal adequacy, whereas a negative slack indicates a violation.
