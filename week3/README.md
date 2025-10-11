@@ -97,3 +97,15 @@ In other words, STA checks the timing correctness of a digital circuit based on 
 It's called “static” because it does not require input vectors or full simulation of the circuit’s operation.
 
 It ensures signals propagate within the allowed clock period.
+
+Digital circuits are synchronous, meaning flip-flops are clocked.
+
+Signals travel through combinational logic between registers.
+
+Each flip-flop has setup time (before clock edge) and hold time (after clock edge) requirements.
+
+If timing is violated:
+
+Setup violation: data arrives too late → wrong value latched
+
+Hold violation: data changes too early → unstable value latched
