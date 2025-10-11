@@ -1,4 +1,4 @@
-### GLS of BabySoC
+# GLS of BabySoC
 
 ## Week 3: Starting VSDBabySoC
 
@@ -89,7 +89,7 @@ gtkwave post_synth_sim.vcd
 <img width="1632" height="183" alt="image" src="https://github.com/user-attachments/assets/6bab4eaa-caa7-4f11-ab02-54ddd199efa8" />
 
 
-# Static Timing Analysis
+## Static Timing Analysis
 STA is a method used in digital circuit design to verify that a design will meet its timing requirements without having to simulate all possible input combinations.
 
 In other words, STA checks the timing correctness of a digital circuit based on its netlist, delays, and constraints, rather than by applying waveforms dynamically.
