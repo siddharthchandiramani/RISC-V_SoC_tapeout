@@ -8,7 +8,7 @@ Open a terminal and follow these commands:
 
 ```bash
 # Navigate to the VSDBabySoC repository
-cd ~/VSD/VSDBabySoC
+cd VSD/VSDBabySoC
 
 # Launch Yosys to start synthesis or analysis
 yosys
@@ -67,7 +67,7 @@ stat
 <img width="401" height="261" alt="image" src="https://github.com/user-attachments/assets/0b322816-7efe-4554-a4f3-efa688c43066" />
 
 ```bash
-yosys> write_verilog -noattr /home/siddharthac/VSD/VSDBabySoC/output/post_synth_sim/vsdbabysoc.synth.v
+write_verilog -noattr /home/siddharthac/VSD/VSDBabySoC/output/post_synth_sim/vsdbabysoc.synth.v
 ```
 <img width="401" height="149" alt="image" src="https://github.com/user-attachments/assets/3381df09-ad69-4a8d-b7e6-b0f23951c759" />
 
