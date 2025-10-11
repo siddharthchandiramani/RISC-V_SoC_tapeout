@@ -89,7 +89,7 @@ gtkwave post_synth_sim.vcd
 <img width="1632" height="183" alt="image" src="https://github.com/user-attachments/assets/6bab4eaa-caa7-4f11-ab02-54ddd199efa8" />
 
 
-### Static Timing Analysis
+# Static Timing Analysis
 STA is a method used in digital circuit design to verify that a design will meet its timing requirements without having to simulate all possible input combinations.
 
 In other words, STA checks the timing correctness of a digital circuit based on its netlist, delays, and constraints, rather than by applying waveforms dynamically.
@@ -110,7 +110,7 @@ Setup violation: data arrives too late → wrong value latched
 
 Hold violation: data changes too early → unstable value latched
 
-# Setup Time Constraint
+### Setup Time Constraint
 
 Ensures that data is present and stable at the sequential element sufficiently in advance of the clock transition.
 
@@ -118,7 +118,7 @@ Condition: Tclk ≥ Tpd + Tsetup
 
 Slack: Slack_setup = Tclk - (Tpd + Tsetup)
 
-## Hold Time Constraint
+### Hold Time Constraint
 
 Ensures that data remains stable for a minimum duration following the clock transition.
 
