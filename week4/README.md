@@ -16,7 +16,8 @@ siddharthac@siddharthac:~/sky130CircuitDesignWorkshop/design$ vim day1_nfet_idvd
 
 ## Simulation
 ```
-siddharthac@siddharthac:~/sky130CircuitDesignWorkshop/design$ ngspice day1_nfet_idvds_L2_W5.spice 
+siddharthac@siddharthac:~/sky130CircuitDesignWorkshop/design$ ngspice day1_nfet_idvds_L2_W5.spice
 ```
+Id vs Vds curve for different values of Vgs
 <img width="732" height="576" alt="1st_id_vs_vds" src="https://github.com/user-attachments/assets/602b23cf-cc6d-4ba0-8cae-61f9af8e3d38" />
 
