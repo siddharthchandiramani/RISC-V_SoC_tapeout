@@ -224,3 +224,4 @@ siddharthac@siddharthac:~/sky130CircuitDesignWorkshop/design$ ngspice day5_inv_s
 ### plot 
 <img width="732" height="576" alt="8th_supply_varriation" src="https://github.com/user-attachments/assets/9b560aec-46f1-44d7-955f-b39688be5a53" />
 
+The advantages of using a small supply voltage are that it provides high voltage gain and consumes less energy, while the disadvantage is that the rise time increases, making it slower to charge the load capacitor.
