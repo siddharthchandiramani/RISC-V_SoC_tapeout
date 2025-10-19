@@ -19,6 +19,8 @@ Steps for simulation:
 ```
 siddharthac@siddharthac:~/sky130CircuitDesignWorkshop/design$ ngspice day1_nfet_idvds_L2_W5.spice
 ```
+<img width="658" height="218" alt="image" src="https://github.com/user-attachments/assets/84dd986c-00f6-43c0-b0c9-d79296f8a313" />
+
 ### Id vs Vds plot
 <img width="732" height="576" alt="1st_id_vs_vds" src="https://github.com/user-attachments/assets/602b23cf-cc6d-4ba0-8cae-61f9af8e3d38" />
 
@@ -120,29 +122,7 @@ siddharthac@siddharthac:~/sky130CircuitDesignWorkshop/design$ ngspice day3_inv_v
 
 The Voltage Transfer Characteristic (VTC) of a CMOS inverter shows the relationship between the input voltage (Vin) and the output voltage (Vout). It illustrates how the inverter transitions from a logic high to a logic low state as the input voltage varies from 0 V to VDD.
 
-The VTC curve can be divided into three distinct regions:
-
-Region I – NMOS OFF, PMOS ON (Vin < Vthn):
-
-When the input voltage is low, the NMOS transistor is OFF and the PMOS transistor is ON.
-
-The output is connected to VDD through the PMOS, so Vout ≈ VDD (logic high).
-
-Region II – Transition Region (Vthn < Vin < VDD - |Vthp|):
-
-Both NMOS and PMOS are partially ON.
-
-This is the switching region, where a small change in input causes a large change in output.
-
-The inverter exhibits high gain, and the point where Vin = Vout is the switching threshold (Vm).
-
-Region III – NMOS ON, PMOS OFF (Vin > VDD - |Vthp|):
-
-The NMOS transistor is fully ON, and the PMOS transistor is OFF.
-
-The output is pulled down to ground, so Vout ≈ 0 V (logic low).
-
-The ideal VTC curve is steep in the transition region, indicating good noise margins and strong switching characteristics. The noise margins (NMH and NML) define how much noise the circuit can tolerate without logic errors.
+<img width="314" height="214" alt="image" src="https://github.com/user-attachments/assets/c7dd7426-1448-4fa1-a2ad-268dd84e289d" />
 
 ## Transient analysis
 ```
