@@ -160,4 +160,37 @@ siddharthac@siddharthac:~/sky130CircuitDesignWorkshop/design$ ngspice day3_inv_t
 ### plot
 <img width="732" height="576" alt="5th_trans" src="https://github.com/user-attachments/assets/468e5517-4926-46ab-81e5-58996ddbd56c" />
 
+## Noise Margin
+<img width="377" height="344" alt="image" src="https://github.com/user-attachments/assets/e7666513-4a73-46b7-b154-74e336e6c788" />
+
+```
+siddharthac@siddharthac:~/sky130CircuitDesignWorkshop/design$ vim day4_inv_noisemargin_wp1_wn036.spice 
+```
+<img width="539" height="730" alt="image" src="https://github.com/user-attachments/assets/04a28567-b93d-4fab-906e-7a63fcebf749" />
+
+### Simulation
+Steps for simulation:
+```
+siddharthac@siddharthac:~/sky130CircuitDesignWorkshop/design$ ngspice day4_inv_noisemargin_wp1_wn036.spice 
+```
+<img width="665" height="302" alt="image" src="https://github.com/user-attachments/assets/f7c978a6-b4f0-4c7b-b7fc-981590fb9027" />
+
+### plot
+<img width="732" height="576" alt="6th_nm_vtc" src="https://github.com/user-attachments/assets/f5818820-69af-44a0-9283-3fe3c91a5964" />
+
+Noise margin is a measure of a digital circuit’s ability to tolerate noise without misinterpreting logic levels. It defines the maximum voltage disturbance that can be applied to a digital signal without causing an incorrect output. Noise margins are crucial in ensuring reliable operation of logic gates in real-world environments.
+
+<img width="665" height="268" alt="image" src="https://github.com/user-attachments/assets/068c75ff-f3b4-4de2-8719-c58bb4d065cc" />
+
+
+VOH : Minimum output voltage considered as logic HIGH.
+
+VOL: Maximum output voltage considered as logic LOW.
+
+VIH: Minimum input voltage recognized as logic HIGH.
+
+VIL: Maximum input voltage recognized as logic LOW.
+
+### Calculation of NMh and NMl
+<img width="295" height="125" alt="7th_nm_cal" src="https://github.com/user-attachments/assets/187e5678-2e84-4552-b7ea-f61b6c3c1b8e" />
 
