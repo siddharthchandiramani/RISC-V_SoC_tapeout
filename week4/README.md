@@ -43,7 +43,9 @@ Steps for simulation:
 ```
 siddharthac@siddharthac:~/sky130CircuitDesignWorkshop/design$ ngspice day2_nfet_idvds_L015_W039.spice 
 ```
+<img width="541" height="241" alt="image" src="https://github.com/user-attachments/assets/2f19c3a1-36f9-49f5-b6ea-8d2945dd252a" />
 
+## Id vs Vds plot
 <img width="732" height="576" alt="2nd_id_vds_0 15_0 39" src="https://github.com/user-attachments/assets/a4c8d233-64d8-4ae1-a4fe-594a2828bcfb" />
 
 
