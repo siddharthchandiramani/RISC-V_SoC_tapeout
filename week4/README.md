@@ -122,7 +122,7 @@ siddharthac@siddharthac:~/sky130CircuitDesignWorkshop/design$ ngspice day3_inv_v
 
 The Voltage Transfer Characteristic (VTC) of a CMOS inverter shows the relationship between the input voltage (Vin) and the output voltage (Vout). It illustrates how the inverter transitions from a logic high to a logic low state as the input voltage varies from 0 V to VDD.
 
-<img width="314" height="214" alt="image" src="https://github.com/user-attachments/assets/c7dd7426-1448-4fa1-a2ad-268dd84e289d" />
+<img width="347" height="297" alt="image" src="https://github.com/user-attachments/assets/d20780e6-2631-48d6-928d-b939cbd35606" />
 
 ## Transient analysis
 ```
