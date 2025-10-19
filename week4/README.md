@@ -195,14 +195,18 @@ VIL: Maximum input voltage recognized as logic LOW.
 <img width="295" height="125" alt="7th_nm_cal" src="https://github.com/user-attachments/assets/187e5678-2e84-4552-b7ea-f61b6c3c1b8e" />
 
 VIL = 0.752V
+
 VIH = 0.984V
+
 VOL = 0.1V
+
 VOH = 1.72727V
 
 ### Formula
 <img width="750" height="212" alt="image" src="https://github.com/user-attachments/assets/fb3df477-881d-4906-8fa3-d25695abcc5a" />
 
 NMH = 0.74327V
+
 NML = 0.652V
 
 
