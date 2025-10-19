@@ -191,6 +191,23 @@ VIH: Minimum input voltage recognized as logic HIGH.
 
 VIL: Maximum input voltage recognized as logic LOW.
 
-### Calculation of NMh and NMl
+### Calculation of NMH and NML
 <img width="295" height="125" alt="7th_nm_cal" src="https://github.com/user-attachments/assets/187e5678-2e84-4552-b7ea-f61b6c3c1b8e" />
+### Formula
+<img width="750" height="212" alt="image" src="https://github.com/user-attachments/assets/fb3df477-881d-4906-8fa3-d25695abcc5a" />
+
+
+## Supply Variation
+```
+siddharthac@siddharthac:~/sky130CircuitDesignWorkshop/design$ vim day5_inv_supplyvariation_Wp1_Wn036.spice 
+```
+<img width="1900" height="841" alt="image" src="https://github.com/user-attachments/assets/b2c6462d-ef11-4d64-8ebe-39e743aec63d" />
+
+### Simulation
+Steps for simulation:
+```
+siddharthac@siddharthac:~/sky130CircuitDesignWorkshop/design$ ngspice day5_inv_supplyvariation_Wp1_Wn036.spice 
+```
+### plot 
+<img width="732" height="576" alt="8th_supply_varriation" src="https://github.com/user-attachments/assets/9b560aec-46f1-44d7-955f-b39688be5a53" />
 
