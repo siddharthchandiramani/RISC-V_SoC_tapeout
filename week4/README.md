@@ -60,6 +60,7 @@ Steps for simulation:
 siddharthac@siddharthac:~/sky130CircuitDesignWorkshop/design$ ngspice day2_nfet_idvgs_L015_W039.spice 
 ```
 <img width="642" height="248" alt="image" src="https://github.com/user-attachments/assets/7c92d8aa-7ece-461a-96e1-a49d5605dd45" />
+
 ### plot
 <img width="732" height="576" alt="3rd_id_vgs" src="https://github.com/user-attachments/assets/bab03adb-6d2e-4c3c-9bde-5fa92ebb2d00" />
 
