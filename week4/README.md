@@ -8,29 +8,8 @@ git clone https://github.com/kunalg123/sky130CircuitDesignWorkshop.git
 # Navigate into the cloned directory
 cd sky130CircuitDesignWorkshop/design
 ```
+
 ```
-.param temp=27
-
-* Including sky130 library files
-.lib "sky130_fd_pr/models/sky130.lib.spice" tt
-
-* Netlist Description
-XM1 Vdd n1 0 0 sky130_fd_pr__nfet_01v8 w=5 l=2
-
-R1 n1 in 55
-
-Vdd vdd 0 1.8V
-Vin in 0 1.8V
-
-* Simulation commands
-.op
-.dc Vdd 0 1.8 0.1 Vin 0 1.8 0.2
-
-.control
-run
-display
-setplot dc1
-.endc
-
-.end
+siddharthac@siddharthac:~/sky130CircuitDesignWorkshop/design$ vim day1_nfet_idvds_L2_W5.spice 
 ```
+<img width="486" height="698" alt="Screenshot from 2025-10-19 19-57-35" src="https://github.com/user-attachments/assets/77174aa6-4de7-4748-ba11-ac1c4898c62c" />
