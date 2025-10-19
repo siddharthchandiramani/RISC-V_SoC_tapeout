@@ -63,6 +63,7 @@ siddharthac@siddharthac:~/sky130CircuitDesignWorkshop/design$ ngspice day2_nfet_
 
 ### plot
 <img width="732" height="576" alt="3rd_id_vgs" src="https://github.com/user-attachments/assets/bab03adb-6d2e-4c3c-9bde-5fa92ebb2d00" />
+
 Vt(Threshold voltage) = 0.77V
 
 ## ID–VGS Characteristics of NMOS Transistor
@@ -74,41 +75,13 @@ When the gate voltage is below the threshold voltage (Vth), no inversion channel
 Linear (Ohmic) Region (VGS > Vth and VDS < VGS – Vth):
 When VGS exceeds Vth, a conductive channel forms. For small VDS, the MOSFET behaves like a voltage-controlled resistor, and the drain current increases almost linearly with VDS.
 The current is given by:
-I 
-D
-​
- =μ 
-n
-​
- C 
-ox
-​
-  
-L
-W
-​
- [(V 
-GS
-​
- −V 
-T
-​
- )V 
-DS
-​
- − 
-2
-1
-​
- V 
-DS
-2
-​
- ]
+<img width="345" height="49" alt="image" src="https://github.com/user-attachments/assets/1dcfb13f-6b60-44aa-9ac2-dc7fe5bed1d6" />
+
 
 Saturation (Active) Region (VGS > Vth and VDS ≥ VGS – Vth):
 When VDS increases beyond VGS – Vth, the channel near the drain end pinches off, and the current becomes almost independent of VDS.
 The drain current is given by the square-law equation:
+<img width="280" height="49" alt="image" src="https://github.com/user-attachments/assets/20f8e2df-5cdf-41db-b092-356340184d51" />
 
 This region is mainly used for amplification in analog circuits.
 
