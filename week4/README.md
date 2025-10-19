@@ -63,7 +63,54 @@ siddharthac@siddharthac:~/sky130CircuitDesignWorkshop/design$ ngspice day2_nfet_
 
 ### plot
 <img width="732" height="576" alt="3rd_id_vgs" src="https://github.com/user-attachments/assets/bab03adb-6d2e-4c3c-9bde-5fa92ebb2d00" />
+Vt(Threshold voltage) = 0.77V
 
+## ID–VGS Characteristics of NMOS Transistor
+The ID–VGS curve shows how the drain current (ID) varies with the gate-to-source voltage (VGS) for a fixed drain-to-source voltage (VDS). The behavior of the MOSFET can be divided into three main regions:
+
+Cutoff Region (VGS < Vth):
+When the gate voltage is below the threshold voltage (Vth), no inversion channel is formed between the drain and source. The transistor remains OFF, and the drain current (ID) is approximately zero, except for a small subthreshold leakage current.
+
+Linear (Ohmic) Region (VGS > Vth and VDS < VGS – Vth):
+When VGS exceeds Vth, a conductive channel forms. For small VDS, the MOSFET behaves like a voltage-controlled resistor, and the drain current increases almost linearly with VDS.
+The current is given by:
+I 
+D
+​
+ =μ 
+n
+​
+ C 
+ox
+​
+  
+L
+W
+​
+ [(V 
+GS
+​
+ −V 
+T
+​
+ )V 
+DS
+​
+ − 
+2
+1
+​
+ V 
+DS
+2
+​
+ ]
+
+Saturation (Active) Region (VGS > Vth and VDS ≥ VGS – Vth):
+When VDS increases beyond VGS – Vth, the channel near the drain end pinches off, and the current becomes almost independent of VDS.
+The drain current is given by the square-law equation:
+
+This region is mainly used for amplification in analog circuits.
 
 
 
