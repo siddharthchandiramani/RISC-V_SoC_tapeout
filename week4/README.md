@@ -193,6 +193,7 @@ VIL: Maximum input voltage recognized as logic LOW.
 
 ### Calculation of NMH and NML
 <img width="295" height="125" alt="7th_nm_cal" src="https://github.com/user-attachments/assets/187e5678-2e84-4552-b7ea-f61b6c3c1b8e" />
+
 ### Formula
 <img width="750" height="212" alt="image" src="https://github.com/user-attachments/assets/fb3df477-881d-4906-8fa3-d25695abcc5a" />
 
