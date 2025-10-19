@@ -144,5 +144,20 @@ The output is pulled down to ground, so Vout ≈ 0 V (logic low).
 
 The ideal VTC curve is steep in the transition region, indicating good noise margins and strong switching characteristics. The noise margins (NMH and NML) define how much noise the circuit can tolerate without logic errors.
 
+## Transient analysis
+```
+siddharthac@siddharthac:~/sky130CircuitDesignWorkshop/design$ vim day3_inv_tran_Wp084_Wn036.spice 
+```
+<img width="576" height="654" alt="image" src="https://github.com/user-attachments/assets/a9c155d6-1ca5-4d87-b977-c43a358f71bb" />
+
+### Simulation
+Steps for simulation:
+```
+siddharthac@siddharthac:~/sky130CircuitDesignWorkshop/design$ ngspice day3_inv_tran_Wp084_Wn036.spice 
+```
+<img width="470" height="260" alt="image" src="https://github.com/user-attachments/assets/eb141e7b-fac4-455e-be9a-c4981fd441b5" />
+
+### plot
+<img width="732" height="576" alt="5th_trans" src="https://github.com/user-attachments/assets/468e5517-4926-46ab-81e5-58996ddbd56c" />
 
 
